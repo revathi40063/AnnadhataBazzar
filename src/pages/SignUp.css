@@ -1,0 +1,24 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.signup-box {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.signup-box h2 {
+  text-align: center;
+  color: #2c5364;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
